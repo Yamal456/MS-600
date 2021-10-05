@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "0d4cc85c-a577-44c0-acca-77f656b2ff8d",
+  "alias": "HelloPropertyPaneWebPart",
+  "componentType": "WebPart",
+
+  
+  "version": "*",
+  "manifestVersion": 2,
+
+ 
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Other" },
+    "title": { "default": "HelloPropertyPane" },
+    "description": { "default": "HelloPropertyPane description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {"myContinent": "North America","numContinentsVisited": 4
+    ,"description": "HelloPropertyPane"
+    }
+  }]
+}
